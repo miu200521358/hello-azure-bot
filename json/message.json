@@ -1,0 +1,130 @@
+{
+    "welcome": "ようこそ！\n\n行ってみたい国や都市、観光スポット、雑談など、色々話しかけてみて下さいね。\n\n呪文を唱えると不思議な動きをします。\n\n詳しい使い方を知りたい時には「?」と話しかけてください。",
+    "want_go": {
+        "code" : "/tour",
+        "name" : "行きたい"
+    },
+    "want_know": {
+        "code" : "/know",
+        "name" : "知りたい"
+    },
+    "want_hear": {
+        "code" : "/hear",
+        "name" : "聞きたい"
+    },
+    "not_interest": "興味がない",
+    "howto": [
+        "「来年3月にパリに行ってみたい」など、国や都市、観光スポットについて、色々話しかけてみて下さい。",
+        "話しかけられた内容に応じたツアーをご紹介いたします。",
+        "それ以外にも、「おなかすいた」などと適当に話しかけてもらえると、様々な国の言葉に翻訳してお返しします。",
+        "都市の天気や時間などもお伝えしますよ。",
+        "一部の国は翻訳結果を音声で聞くことができます。",
+        "「開けゴマ」っぽく話しかけると、これまでの他の方が試した翻訳をランダムでお伝えします。",
+        "「クリア」と話しかけると、内部情報を初期化します。動作がおかしくなった時に試してみて下さい。",
+        "【観光情報】\n\nPowered by [エイビーロードWebサービス](http://webservice.recruit.co.jp/)"
+    ],
+    "poweredby": "Powered by [エイビーロードWebサービス](http://webservice.recruit.co.jp/)",
+    "poweredbyHearder": "Powered by",
+    "poweredbyAB": "[エイビーロードWebサービス](http://webservice.recruit.co.jp/)",
+    "poweredbyABTitle": "エイビーロードWebサービス",
+    "poweredbyABUrl": "http://webservice.recruit.co.jp/",
+    "invalid_lat": -99999999,
+    "want_info": [
+        {
+            "code": "/info_weather",
+            "name": "天気"
+        },
+        {
+            "code": "/info_time",
+            "name": "時間"
+        },
+        {
+            "code": "/info_flag",
+            "name": "旗"
+        },
+        {
+            "code": "/prompt_info_map",
+            "name": "地図"
+        },
+        {
+            "code": "/prompt_info_spot",
+            "name": "観光地"
+        },
+        {
+            "code": "/prompt_info_hotel",
+            "name": "ホテル"
+        },
+        {
+            "code": "/prompt_info_tour",
+            "name": "ツアー"
+        },
+        {
+            "code": "/prompt_info_other_city",
+            "name": "他の都市"
+        }
+    ],
+    "yes": "はい",
+    "no": "いいえ",
+    "goodbye": "また話しかけてくださいね！",
+    "dept": [
+        {
+            "code": "TYO",
+            "name": "東京"
+        } ,
+        {
+            "code": "NGO",
+            "name": "名古屋"
+        } ,
+        {
+            "code": "OSA",
+            "name": "大阪"
+        } ,
+        {
+            "code": "FUK",
+            "name": "福岡"
+        } ,
+        {
+            "code": "999",
+            "name": "その他"
+        }
+    ],
+    "prompt_multi": "候補が複数件見つかりました。選んで下さい。",
+    "error_to_others": "他の言葉で話しかけてください。",
+    "want_spot_postback": {
+        "code": "/spot_tour",
+        "name": "行ってみたい"
+    },
+    "want_hotel_postback": {
+        "code": "/spot_hotel",
+        "name": "泊まってみたい"
+    },
+    "want_other_postback": {
+        "code": "/prompt_know",
+        "name": "他の情報が知りたい"
+    },
+    "want_other_city_postback": {
+        "code": "/prompt_other_city_know",
+        "name": "知りたい"
+    },
+    "info_map_zoom_up_postback": {
+        "code": "/info_map_zoom_up_postback",
+        "name": "拡大"
+    },
+    "info_map_zoom_down_postback": {
+        "code": "/info_map_zoom_down_postback",
+        "name": "縮小"
+    },
+    "info_map_other_postback": {
+        "code": "/info_map_other_postback",
+        "name": "他の情報"
+    },
+    "search_zero": "検索結果がありませんでした。他の言葉で話しかけてください。",
+    "errors": "問題が発生しました。\n\n他の言葉で話しかけてください。",
+    "prompt_conditon": "出発年月/出発県など様々な絞り込みができます。\n\n絞り込み不要の場合は、「このまま調べる」をタップしてください。",
+    "option_condition": [
+        {
+            "code": "go",
+            "name": "このまま調べる"
+        }
+    ]
+}

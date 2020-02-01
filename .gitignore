@@ -1,0 +1,5 @@
+.env
+package-lock.json
+
+exe/
+node_modules/
